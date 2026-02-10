@@ -1,0 +1,258 @@
+{
+  "known_scam_coins": {
+    "bitconnect": {
+      "name": "BitConnect",
+      "symbol": "BCC",
+      "scam_type": "ponzi_scheme",
+      "year_collapsed": 2018,
+      "estimated_losses": "2.6 billion USD",
+      "description": "Classic Ponzi scheme with fake lending platform and trading bot",
+      "technical_score": 15,
+      "economic_score": 8,
+      "social_score": 12,
+      "red_flags": [
+        "Promised guaranteed daily returns of 0.5-1%",
+        "Referral system with up to 7% commissions",
+        "Anonymous team",
+        "No working product or verifiable trading bot",
+        "Centralized control despite blockchain claims"
+      ]
+    },
+    "safemoon": {
+      "name": "SafeMoon",
+      "symbol": "SAFEMOON",
+      "scam_type": "pump_and_dump",
+      "year_flagged": 2021,
+      "estimated_losses": "200 million USD",
+      "description": "Token with punitive sell tax mechanism and alleged fraud by founders",
+      "technical_score": 22,
+      "economic_score": 14,
+      "social_score": 18,
+      "red_flags": [
+        "10% transaction tax discouraging selling",
+        "Founders charged with conspiracy and money laundering",
+        "Hidden backdoor functions in smart contract",
+        "Extreme initial supply (1 quadrillion tokens)",
+        "Cult-like community (#SafeMoonArmy)"
+      ]
+    },
+    "squid-game-token": {
+      "name": "Squid Game Token",
+      "symbol": "SQUID",
+      "scam_type": "rug_pull",
+      "year_collapsed": 2021,
+      "estimated_losses": "3.38 million USD",
+      "description": "Classic rug pull exploiting Netflix series popularity",
+      "technical_score": 8,
+      "economic_score": 5,
+      "social_score": 6,
+      "red_flags": [
+        "Anti-dump mechanism preventing token sales",
+        "No official connection to Netflix series",
+        "Anonymous developers",
+        "Price rose 285,000% in days (artificial)",
+        "Liquidity completely removed by developers"
+      ]
+    },
+    "onecoin": {
+      "name": "OneCoin",
+      "symbol": "ONE",
+      "scam_type": "ponzi_scheme",
+      "year_flagged": 2017,
+      "estimated_losses": "4 billion USD",
+      "description": "Multi-level marketing cryptocurrency Ponzi scheme",
+      "technical_score": 5,
+      "economic_score": 5,
+      "social_score": 10,
+      "red_flags": [
+        "No actual blockchain - centralized database",
+        "MLM recruitment structure",
+        "Founder Ruja Ignatova disappeared (FBI most wanted)",
+        "Promised educational packages with guaranteed returns",
+        "Fake exchange with artificial prices"
+      ]
+    },
+    "luna-classic": {
+      "name": "Terra Luna Classic",
+      "symbol": "LUNC",
+      "scam_type": "algorithmic_failure",
+      "year_collapsed": 2022,
+      "estimated_losses": "40 billion USD",
+      "description": "Algorithmic stablecoin collapse due to flawed design",
+      "technical_score": 35,
+      "economic_score": 10,
+      "social_score": 25,
+      "red_flags": [
+        "Algorithmic stablecoin with death spiral risk",
+        "Founder Do Kwon fled authorities",
+        "UST depegged causing cascade collapse",
+        "Over-leveraged ecosystem",
+        "Ignored warnings from economists"
+      ]
+    },
+    "hex": {
+      "name": "HEX",
+      "symbol": "HEX",
+      "scam_type": "suspected_ponzi",
+      "year_flagged": 2019,
+      "estimated_losses": "Unknown",
+      "description": "Controversial staking token with pyramid-like structure",
+      "technical_score": 30,
+      "economic_score": 20,
+      "social_score": 25,
+      "red_flags": [
+        "Founder Richard Heart received majority of funds",
+        "No real utility beyond staking rewards",
+        "Aggressive marketing with unrealistic claims",
+        "Origin address holds billions in tokens",
+        "SEC investigation ongoing"
+      ]
+    },
+    "bitmart-token": {
+      "name": "BitMart Token",
+      "symbol": "BMX",
+      "scam_type": "exchange_token_risk",
+      "year_flagged": 2021,
+      "estimated_losses": "196 million USD (hack)",
+      "description": "Centralized exchange token with security issues",
+      "technical_score": 25,
+      "economic_score": 20,
+      "social_score": 20,
+      "red_flags": [
+        "Exchange suffered major hack",
+        "Centralized control",
+        "Limited transparency on reserves",
+        "Token value tied to exchange health"
+      ]
+    },
+    "plustoken": {
+      "name": "PlusToken",
+      "symbol": "PLUS",
+      "scam_type": "ponzi_scheme",
+      "year_collapsed": 2019,
+      "estimated_losses": "2 billion USD",
+      "description": "Crypto wallet Ponzi scheme primarily in Asia",
+      "technical_score": 10,
+      "economic_score": 5,
+      "social_score": 15,
+      "red_flags": [
+        "Promised 9-18% monthly returns",
+        "Fake AI arbitrage trading claims",
+        "MLM referral structure",
+        "Founders arrested in China",
+        "Exit scam with investor funds"
+      ]
+    }
+  },
+  "scam_type_definitions": {
+    "ponzi_scheme": {
+      "description": "Investment fraud where returns are paid from new investors' capital",
+      "typical_indicators": ["guaranteed_returns", "referral_bonuses", "no_real_product", "unsustainable_model"],
+      "severity": "critical"
+    },
+    "rug_pull": {
+      "description": "Developers abandon project and drain liquidity",
+      "typical_indicators": ["anonymous_team", "locked_selling", "sudden_liquidity_removal", "hype_marketing"],
+      "severity": "critical"
+    },
+    "pump_and_dump": {
+      "description": "Artificially inflating price before mass selling",
+      "typical_indicators": ["coordinated_buying", "social_media_hype", "insider_selling", "price_manipulation"],
+      "severity": "high"
+    },
+    "algorithmic_failure": {
+      "description": "Flawed tokenomics or mechanism leading to collapse",
+      "typical_indicators": ["complex_mechanisms", "ignored_warnings", "over_leverage", "death_spiral_risk"],
+      "severity": "high"
+    },
+    "suspected_ponzi": {
+      "description": "Shows Ponzi characteristics but not yet confirmed",
+      "typical_indicators": ["unrealistic_yields", "founder_concentration", "no_clear_revenue", "aggressive_marketing"],
+      "severity": "high"
+    },
+    "exchange_token_risk": {
+      "description": "Token tied to potentially risky centralized exchange",
+      "typical_indicators": ["centralized_control", "security_breaches", "regulatory_issues", "opacity"],
+      "severity": "medium"
+    }
+  },
+  "red_flag_patterns": {
+    "guaranteed_returns": {
+      "keywords": ["guaranteed", "daily return", "fixed apy", "risk-free", "100% profit"],
+      "weight": 10,
+      "description": "Promises of guaranteed or unusually high returns"
+    },
+    "anonymous_team": {
+      "keywords": ["anonymous", "unknown team", "doxxed later", "pseudonymous"],
+      "weight": 8,
+      "description": "Team members are not publicly identified"
+    },
+    "no_github": {
+      "keywords": [],
+      "weight": 7,
+      "description": "No public code repository or development activity"
+    },
+    "anti_sell_mechanism": {
+      "keywords": ["anti-dump", "sell tax", "cannot sell", "holding period", "lock"],
+      "weight": 9,
+      "description": "Mechanisms that prevent or penalize selling"
+    },
+    "celebrity_endorsement": {
+      "keywords": ["celebrity", "influencer", "promoted by", "endorsed"],
+      "weight": 5,
+      "description": "Heavy reliance on celebrity/influencer marketing"
+    },
+    "mlm_structure": {
+      "keywords": ["referral", "multi-level", "pyramid", "downline", "tier bonus"],
+      "weight": 10,
+      "description": "Multi-level marketing or pyramid-like structure"
+    },
+    "fomo_marketing": {
+      "keywords": ["limited time", "exclusive", "dont miss", "moon", "100x", "1000x"],
+      "weight": 6,
+      "description": "Fear of missing out marketing tactics"
+    },
+    "copied_code": {
+      "keywords": ["fork", "copy", "clone"],
+      "weight": 4,
+      "description": "Project is a simple copy of existing code without innovation"
+    },
+    "concentrated_supply": {
+      "keywords": [],
+      "weight": 8,
+      "description": "Small number of addresses control majority of supply"
+    },
+    "no_audit": {
+      "keywords": [],
+      "weight": 6,
+      "description": "Smart contracts have not been professionally audited"
+    }
+  },
+  "market_cap_thresholds": {
+    "micro_cap": {
+      "max_usd": 10000000,
+      "risk_multiplier": 1.5,
+      "description": "Under $10M market cap - highest manipulation risk"
+    },
+    "small_cap": {
+      "max_usd": 100000000,
+      "risk_multiplier": 1.3,
+      "description": "$10M - $100M market cap - elevated risk"
+    },
+    "mid_cap": {
+      "max_usd": 1000000000,
+      "risk_multiplier": 1.1,
+      "description": "$100M - $1B market cap - moderate risk"
+    },
+    "large_cap": {
+      "max_usd": 10000000000,
+      "risk_multiplier": 1.0,
+      "description": "$1B - $10B market cap - standard risk"
+    },
+    "mega_cap": {
+      "max_usd": null,
+      "risk_multiplier": 0.9,
+      "description": "Over $10B market cap - lower manipulation risk"
+    }
+  }
+}
