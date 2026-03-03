@@ -1,6 +1,6 @@
 # 🔍 Klasifikator kriptovalut
 
-Orodje za ocenjevanje legitimnosti in tveganja kriptovalutnih projektov, razvito v okviru diplomske naloge **»Sodobne tehnologije veriženja blokov: varnostne grožnje, delovanje in vpliv NFT-jev«** na Fakulteti za računalništvo in informatiko, Univerza v Ljubljani.
+Orodje za ocenjevanje legitimnosti in tveganja kriptovalutnih projektov, razvito v okviru diplomske naloge **'Sodobne tehnologije veriženja blokov: varnostne grožnje, delovanje in vpliv NFT-jev'** na Fakulteti za računalništvo in informatiko, Univerza v Ljubljani.
 
 Klasifikator izračuna kompozitno oceno legitimnosti (**Legitimacy Score – LS**), ki združuje tri ključne dimenzije analize v uteženo formulo:
 
