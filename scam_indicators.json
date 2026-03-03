@@ -142,6 +142,78 @@
         "Founders arrested in China",
         "Exit scam with investor funds"
       ]
+    },
+    "bitconnectx": {
+      "name": "BitconnectX",
+      "symbol": "BCCX",
+      "scam_type": "ponzi_scheme",
+      "year_collapsed": 2018,
+      "estimated_losses": "4 million USD",
+      "description": "Attempted relaunch by BitConnect founders after original platform collapse, promising a decentralized exchange and ICO platform that never materialized",
+      "technical_score": 8,
+      "economic_score": 5,
+      "social_score": 9,
+      "red_flags": [
+        "Same team as original BitConnect Ponzi scheme",
+        "Empty GitHub repository with no real development",
+        "ICO funds never returned to investors",
+        "Platform never became functional",
+        "Shut down within weeks due to regulatory pressure"
+      ]
+    },
+    "save-the-kids": {
+      "name": "Save The Kids Token",
+      "symbol": "KIDS",
+      "scam_type": "rug_pull",
+      "year_collapsed": 2021,
+      "estimated_losses": "1 million USD",
+      "description": "Fake charity token promoted by FaZe Clan influencers, classic rug pull disguised as a charitable cause for children",
+      "technical_score": 10,
+      "economic_score": 9,
+      "social_score": 14,
+      "red_flags": [
+        "Developers sold tokens immediately after launch causing 50% crash",
+        "No evidence of any charitable donations despite project name",
+        "Paid influencer promotion by FaZe Clan members without disclosure",
+        "Simple BEP-20 token with no innovation",
+        "Developers had unrestricted control over liquidity contracts"
+      ]
+    },
+    "anubisdao": {
+      "name": "AnubisDAO",
+      "symbol": "ANUBIS",
+      "scam_type": "rug_pull",
+      "year_collapsed": 2021,
+      "estimated_losses": "60 million USD",
+      "description": "OlympusDAO fork that raised 13,556 ETH (~$60M) in under 20 hours before draining all funds through Tornado Cash",
+      "technical_score": 7,
+      "economic_score": 5,
+      "social_score": 9,
+      "red_flags": [
+        "Raised $60M in under 20 hours then drained all funds",
+        "Completely anonymous development team",
+        "Fork of OlympusDAO with no meaningful improvements",
+        "No security audits or testnet verification",
+        "Stolen funds laundered through Tornado Cash mixer"
+      ]
+    },
+    "evolved-apes": {
+      "name": "Evolved Apes",
+      "symbol": "EVO",
+      "scam_type": "rug_pull",
+      "year_collapsed": 2021,
+      "estimated_losses": "2.7 million USD",
+      "description": "NFT project promising a fighting game that never existed, founder 'Evil Ape' disappeared with 798 ETH from project wallet",
+      "technical_score": 9,
+      "economic_score": 7,
+      "social_score": 10,
+      "red_flags": [
+        "Founder 'Evil Ape' disappeared with 798 ETH from project wallet",
+        "Promised game was never developed - no code, no prototype",
+        "Anonymous founder with pseudonym only",
+        "Twitter, Discord and website deleted after rug pull",
+        "Standard ERC-721 NFTs with no utility beyond speculation"
+      ]
     }
   },
   "scam_type_definitions": {
