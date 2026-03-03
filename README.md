@@ -184,7 +184,7 @@ Klasifikator **samodejno prepozna** znane prevare (npr. BitConnect, SafeMoon, On
 ║                   Bitcoin (BTC)                                   ║
 ╚════════════════════════════════════════════════════════════════════╝
 
-   [████████████████████░] 94.2/100 (A+)
+   [████████████████████░] 90.2/100 (A)
    Risk Level: Very Low Risk
    Category: Layer 1 - Own Blockchain
 ```
